@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
+	<info organisation=""
+		module="gradle-test"
+		revision="1"
+		status="integration"
+		publication="20140207134829"
+	/>
+	<configurations>
+		<conf name="airSDK" visibility="public"/>
+		<conf name="archives" visibility="public" description="Configuration for archive artifacts."/>
+		<conf name="default" visibility="public" description="Configuration for default artifacts."/>
+		<conf name="external" visibility="public"/>
+		<conf name="flexSDK" visibility="public"/>
+		<conf name="internal" visibility="public"/>
+		<conf name="merged" visibility="public"/>
+		<conf name="rsl" visibility="public"/>
+		<conf name="test" visibility="public"/>
+		<conf name="theme" visibility="public"/>
+	</configurations>
+	<publications>
+		<artifact name="gradle-test" type="swf" ext="swf" conf="archives,default"/>
+	</publications>
+</ivy-module>
