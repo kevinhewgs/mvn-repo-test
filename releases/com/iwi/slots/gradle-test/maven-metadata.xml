@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.iwi.slots</groupId>
+  <artifactId>gradle-test</artifactId>
+  <version>00.00.01</version>
+  <versioning>
+    <versions>
+      <version>00.00.01</version>
+    </versions>
+    <lastUpdated>20140210155517</lastUpdated>
+  </versioning>
+</metadata>
